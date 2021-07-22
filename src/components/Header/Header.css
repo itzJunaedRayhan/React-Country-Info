@@ -1,0 +1,33 @@
+.header{
+    height:150px;
+    text-align:center;
+    line-height:30px;
+    font-size: 18px;
+    margin: 25px 0;
+}
+.header span{
+    color: tomato;
+    font-size: 46px;
+    font-family: cursive;
+    padding-left: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@media (max-width:768px){
+    .header{
+        font-size: 15px;
+        line-height:22px;
+    }
+    .header span{
+        font-size: 30px;
+    }
+}
+@media (max-width: 425px){
+    .header{
+        font-size: 10px;
+    }
+    .header span{
+        font-size: 20px;
+    }
+}

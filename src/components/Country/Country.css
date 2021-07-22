@@ -1,0 +1,40 @@
+.country-info{
+    height: 320px;
+    float: left;
+    line-height: 14px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    border-radius:10px;
+}
+.country-info img{
+    height: 75px;
+    width: 80;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.country-info h4{
+    font-size: 16px;
+    text-align: center;
+}
+.country-info button{
+    border: none;
+    padding: 12px 30px;
+    border-radius:10px;
+    width:150px;
+    height: 45px;
+    border: 2px solid transparent;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(221, 159, 24, 0.822);
+    font-size: 18px;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.country-info button:hover{
+    background-color: transparent;
+    border: 2px solid rgba(238, 165, 8, 0.897);
+    color: rgba(221, 159, 24, 0.922);
+}
+
+
